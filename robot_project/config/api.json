@@ -1,0 +1,15 @@
+{
+  "backend": "doubao",
+  "deepseek": {
+    "api_key": "sk-48425b2bbe834f86b3898cadf858e7b8",
+    "model": "deepseek-chat"
+  },
+  "doubao": {
+    "api_key": "e8fcdadf-59e8-403e-bd47-14d9dda3c1cc",
+    "model": "doubao-1-5-pro-32k-250115"
+  },
+  "ollama": {
+    "model": "qwen2:0.5b"
+  },
+  "fallback_to_local": true
+}

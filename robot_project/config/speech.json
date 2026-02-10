@@ -1,0 +1,44 @@
+{
+  "asr": {
+    "app_id": "1005744729",
+    "access_token": "WkMfkx6fZVQuaLc1k3sBbE0crayphy4P",
+    "language": "zh-CN",
+    "format": "pcm",
+    "sample_rate": 16000,
+    "bits": 16,
+    "channels": 1
+  },
+  "tts": {
+    "app_id": "1005744729",
+    "access_token": "WkMfkx6fZVQuaLc1k3sBbE0crayphy4P",
+    "cluster": "volcano_tts",
+    "speaker": "zh_female_yingtaowanzi_mars_bigtts",
+    "speed_ratio": 1,
+    "volume_ratio": 1.0,
+    "pitch_ratio": 1.0
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "chunk_size": 480,
+    "input_device": null,
+    "output_device": null
+  },
+  "aec": {
+    "enabled": false,
+    "ec_binary": "/usr/local/bin/ec",
+    "capture_device": "plughw:CARD=seeed2micvoicec,DEV=0",
+    "playback_device": "plughw:CARD=seeed2micvoicec,DEV=0",
+    "capture_channels": 2,
+    "delay_ms": 200,
+    "filter_length": 4096,
+    "playback_fifo": "/tmp/ec.input",
+    "output_fifo": "/tmp/ec.output",
+    "output_downmix_to_mono": true
+  },
+  "vad": {
+    "aggressiveness": 3,
+    "speech_start_frames": 8,
+    "speech_end_frames": 35
+  }
+}
